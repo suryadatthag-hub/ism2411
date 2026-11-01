@@ -35,13 +35,10 @@ a1c9078 add module 7 functions: calculate_tax, apply_discount, final_price
 f29d00d add .gitignore for Python and OS files
 d12bbf3 Initial commit
 ```
+## To a hiring manager, every commit would serve a distinct goal: exclusions, the functions script, and project documentation. The commit messages would aid in code and documentation review, as well as help break code and documentation into logical and comprehensible commits.
+## 2. The impact of Git on my coding style
+Git will aid in practicing making one distinct change per commit, testing the script after each change, and looking at the contents of git diff prior to committing. I would store working snapshots in the repository with descriptive commit messages. These snapshots would aid in rolling back to an older state or comparing different states, rather than using backup files or overwriting files. Completed commits would be pushed and I would verify on GitHub that the version being graded is up to date.
+## 3. One more thing I would add to my workflow
+In my Windows and VS Code Python environment I would add a local Python virtual environment, .venv/, to be excluded. This is already present in this repository’s .gitignore. A virtual environment stores system-specific files and installed packages. These files and packages can be regenerated so it is not necessary to track a virtual environment. However, a list of required packages (i.e. requirements.txt) could be tracked if additional packages are needed for a future lab. 
 
-A hiring manager could see that each commit has a specific purpose: setting up exclusions, adding the functions script, and documenting the project. The descriptive messages make the work easier to review and show that code and documentation are organized into separate, understandable changes.
 
-### 2. How Git should change my editing approach
-
-Using Git should encourage me to make one focused change at a time, run the script to check the result, and inspect `git diff` before committing. Instead of relying on overwritten files or separate backup copies, I should save working milestones with clear commit messages so I can compare versions or recover an earlier one. I should also push finished commits and check GitHub to confirm that the version being graded is up to date.
-
-### 3. An additional exclusion for my workflow
-
-For my Windows and VS Code Python workflow, I would add `.venv/` to exclude a local Python virtual environment; this pattern is included in this repository's `.gitignore`. A virtual environment contains installed packages and machine-specific files that can be recreated, so tracking it would add unnecessary files and could cause problems on another computer. If a future lab needs extra packages, I would track a dependency list such as `requirements.txt` instead.
