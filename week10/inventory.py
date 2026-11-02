@@ -1,23 +1,13 @@
 # Reflection
-#
 # 1. The thing that was the most surprising to me is that list methods like sort()
-#
 # edit the original list and don't return a new list that is sorted.
-#
 # I would have expected to assign the return value to a new list, but if I
-#
 # want a new list I should use sorted(inventory)
-#
 # 2. A Python list can be used in a statistics class to look at a sample of
-#
 # daily sales data from a store rather than doing all the math in Excel.
-#
 # The same list could be used to compute the mean, range and number of
-#
 # data points above the mean. If the sample changes, simply re-running the
-#
 # code would provide updated values rather than having to recreate the
-#
 # spreadsheet.
 
 # Exercise 1: Build the list
