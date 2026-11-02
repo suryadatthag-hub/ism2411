@@ -4,11 +4,11 @@
 #    I would have expected to assign the result to another variable, but
 #    sorted(inventory) is the appropriate choice when I want a separate copy.
 #
-# 2. In ISM2411, the sales exercises are a business example where a list could
-#    save time compared with manually selecting and calculating cells in Excel.
-#    I could store daily sales in a list, calculate totals and averages, and
-#    filter days above a target with the same code whenever the figures change.
-#    This would reduce repeated manual steps and make the analysis consistent.
+# 2. In a statistics class, a Python list could help analyze a sample of daily
+#    sales figures for a business instead of calculating the results manually
+#    in Excel. I could use the same list to calculate the mean, find the range,
+#    and count observations above the mean. If the sample changed, rerunning
+#    the code would update these results without repeating the spreadsheet steps.
 
 # Exercise 1: Build the list
 print("Exercise 1: Build the list")
